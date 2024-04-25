@@ -2,7 +2,7 @@
 const { Client, GatewayIntentBits, ActivityType, TextChannel } = require('discord.js');
 require('dotenv').config();
 const express = require('express');
-const fs = require('fs'https://github.com/DexiAkaStompa/AurusBOT/tree/main);
+const fs = require('fs');
 const path = require('path');
 const client = new Client({
   intents: Object.keys(GatewayIntentBits).map((a) => {
