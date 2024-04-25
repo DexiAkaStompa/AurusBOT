@@ -2,7 +2,7 @@
 const { Client, GatewayIntentBits, ActivityType, TextChannel } = require('discord.js');
 require('dotenv').config();
 const express = require('express');
-const fs = require('fs');
+const fs = require('fs'https://github.com/DexiAkaStompa/AurusBOT/tree/main);
 const path = require('path');
 const client = new Client({
   intents: Object.keys(GatewayIntentBits).map((a) => {
@@ -20,7 +20,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["PLAYING","MUSIC"];
+const statusMessages = ["Sta giocando ad Aurum","Controlla Ticket"];
 
 
 let currentIndex = 0;
